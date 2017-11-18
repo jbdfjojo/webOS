@@ -1,0 +1,81 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#corps{
+    margin-top: 5px;
+    background-color: #2ab27b;
+    height: 845px;
+
+}
+
+#barre_des_tache{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 1%;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    height: 70px;
+}
+
+#heure{
+    text-align: center;
+    margin-right: -30px;
+    margin-left: 30px;
+    margin-top: 10%;
+}
+
+#date{
+    text-align: center;
+    margin-top: 10%;
+    margin-right: -90px;
+    margin-left: 90px;
+}
+
+#programe_ouvert{
+    margin-right: -110px;
+    margin-left: -40px;
+}
+
+#menu_bar{
+    position:absolute;
+    bottom:0;
+    left: 15px;
+    height: 500px;
+    width: 400px;
+    background-color: #232B2B;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.col_left{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -20px;
+    margin-right: 20px;
+
+}
+
+.col_right_title_A{
+    border: 1px dashed white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.col_right_title_B{
+    border: 1px dashed white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.col_right{
+    background-color: #2e6da4;
+    margin: 5px 5px 5px 15px;
+}
