@@ -23,6 +23,7 @@
     <div class="row">
         <div class="col-lg-12">
             <div id="corps">
+                @include('icone_bureau')
                 @yield('content')
             </div>
         </div>

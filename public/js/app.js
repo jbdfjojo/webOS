@@ -48,3 +48,62 @@ $(document).ready(function(){
         }
     });
 
+
+
+/**
+ *  bureau move icon
+ */
+
+let tab_icon_bureau = []
+let icon_type = '            <div class="icone_bureau">\n' +
+    '                            <div style="padding: 5px"><i class="fa fa-bluetooth fa-3x" aria-hidden="true"></i></div>\n' +
+    '                            <div style="padding: 5px">nom du programe</div>\n' +
+    '                        </div>';
+
+// on recupere tout les element de la grille
+let grid_bureau = document.getElementsByClassName('grid_bureau');
+
+// on transforme la colection en tableaux
+grid_bureau = [].slice.call(grid_bureau)
+
+// on parcourt le tableaux
+grid_bureau.forEach(function(element) {
+
+    /*
+    if(element.querySelector('.icone_bureau') != null){
+
+        tab_icon_bureau.push({
+            "position" : element.getAttribute('id'),
+            "icone_programe" : element.querySelector('.icone_bureau')
+
+        })
+    }else {
+        tab_icon_bureau.push({
+            "position" : null,
+            "icone_programe" : null
+
+        })
+    }
+    */
+
+    console.log(element.querySelector('.icone_bureau'))
+
+    tab_icon_bureau.push({
+        "id" : null ,
+        "position" : null,
+        "icone_programe" : null
+
+    })
+
+});
+
+tab_icon_bureau[9] = {
+    "id" : 10,
+    "position" : "position_10",
+    "icone_programe" : icon_type
+
+}
+
+console.log(tab_icon_bureau);
+
+
